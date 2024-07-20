@@ -8,5 +8,5 @@ API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_ID = int(getenv("OWNER_ID", "7044783841"))
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_DB_URI") # Don't fill it in, just fill it in vi .env warning!
 MUST_JOIN = getenv("MUST_JOIN", None)
